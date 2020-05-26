@@ -1,0 +1,26 @@
+{
+  "name": "Key Safer",
+  "version": "1.0",
+  "description": "Password Manager",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "src/background.js"
+    ],
+    "persistent": false
+  },
+  "web_accessible_resources": [
+    "src/*"
+  ],
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "manifest_version": 2
+}
